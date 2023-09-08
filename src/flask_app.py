@@ -89,6 +89,7 @@ def get_full_ranking():
     # Return the sorted team stats as JSON
     return jsonify({'ranking': sorted_team_stats})
 
+
 # Route to display the tournament page
 @app.route('/tournament')
 def tournament_page():
